@@ -1,3 +1,6 @@
+// this file won't compile because the struct is defined
+// inside main() but referenced outside
+
 #include <stdio.h>
 
 void show_pixel(struct pixel p);

@@ -1,13 +1,14 @@
 #include <stdio.h>
 
-void show_pixel(struct pixel p);
-
+// needs to define the struct before any use
 struct pixel
 {
 	int horz;
 	int vert;
 	char color;
 };
+
+void show_pixel(struct pixel p);
 
 int main()
 {
