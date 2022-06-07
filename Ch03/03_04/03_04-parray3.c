@@ -6,6 +6,7 @@ int main()
 	int *pt;
 	int x;
 
+	// arrays are like pointers
 	pt = twos;
 	for (x = 0; x < 5; x++)
 	{

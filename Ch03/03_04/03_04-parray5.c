@@ -6,6 +6,7 @@ int main()
 	int *pt;
 
 	pt = twos;
+	// *(p + x) dereference the pointer to show the value
 	printf("%d\n", *(pt + 0));
 	printf("%d\n", *(pt + 1));
 	printf("%d\n", *(pt + 2));
