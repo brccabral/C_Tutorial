@@ -6,6 +6,9 @@ int main()
 	int a;
 
 	a = 0;
+	// putchar prints and returns the char
+	// null char \0 is resolved to false, breaking the loop
+	// a++ is resolved after the statement
 	while (putchar(string[a++]))
 		;
 
