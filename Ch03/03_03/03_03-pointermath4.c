@@ -7,7 +7,7 @@ int main()
 
 	pt = twos;
 	printf("%p\n", pt);
-	printf("%p\n", pt + 1);
+	printf("%p\n", pt + 1); // 1 = adds 8 bytes to the address because "double" has 4 bytes
 
 	return (0);
 }
