@@ -7,6 +7,8 @@ int main()
 	char g[] = "green";
 	char b[] = "blue";
 
+	// 0 is exact match
+	// positive/negative is alphabetical order
 	if (strcmp(r, "blue") == 0)
 		printf("%s compares with \"blue\"\n", r);
 	if (strcmp(g, "blue") == 0)

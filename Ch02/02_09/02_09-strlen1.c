@@ -4,10 +4,10 @@
 int main()
 {
 	char string[] = "Hello, you happy planet.";
-	int len;
+	size_t len;
 
 	len = strlen(string);
-	printf("The string \"%s\" is %d characters long.\n", string, len);
+	printf("The string \"%s\" is %lu characters long.\n", string, len);
 
 	return (0);
 }

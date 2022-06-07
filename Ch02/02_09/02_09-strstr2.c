@@ -3,7 +3,7 @@
 
 int main()
 {
-	char needle[] = "heart";
+	char needle[] = "Get";
 	char haystack[] = "Get to the heart of the matter";
 	char *found;
 
