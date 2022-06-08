@@ -7,6 +7,7 @@ int main()
 	int x;
 
 	/* swap 2 and 3 */
+	// swap pointer is faster than copying all characters to a temp variable and back
 	temp = veeps[1];
 	veeps[1] = veeps[2];
 	veeps[2] = temp;
