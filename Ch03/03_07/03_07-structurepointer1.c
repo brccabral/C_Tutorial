@@ -24,7 +24,7 @@ int main()
 	strcpy(you.name, buffer);
 	/* get your age */
 	printf("Enter your age: ");
-	scanf("%d", &you.age);
+	scanf("%d", &you.age); // scanf needs a pointer (strings are already pointers = char *)
 
 	printf("You are %s", you.name);
 	printf("You are %d years old\n", you.age);
