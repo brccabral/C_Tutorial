@@ -7,7 +7,7 @@ int main()
 
 	/* open the process */
 	//	p = popen("ver","r");	/* Windows */
-	p = popen("uname", "r"); /* Unix */
+	p = popen("uname -a", "r"); /* Unix */
 	if (p == NULL)
 	{
 		puts("Unable to create process");
