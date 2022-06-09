@@ -8,7 +8,7 @@ int main()
 
 	time(&now);
 	timestamp = localtime(&now);
-	printf("It's now %d:%02d:%02d\n",
+	printf("It's now %02d:%02d:%02d\n",
 		   timestamp->tm_hour,
 		   timestamp->tm_min,
 		   timestamp->tm_sec);
