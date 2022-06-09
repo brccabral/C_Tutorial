@@ -25,7 +25,7 @@ int main()
 			printf(" Dir ");
 		else
 			printf("File ");
-		printf("%20s %10lld %ld\n",
+		printf("%20s %10ld %ld\n",
 			   file->d_name,
 			   fstat.st_size,
 			   fstat.st_mtime);

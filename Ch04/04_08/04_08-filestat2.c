@@ -22,7 +22,7 @@ int main()
 	while ((file = readdir(directory)) != NULL)
 	{
 		stat(file->d_name, &fstat);
-		printf("%25s %10lld ",
+		printf("%25s %10ld ",
 			   file->d_name,
 			   fstat.st_size);
 		printf("%s", ctime(&fstat.st_mtime));
